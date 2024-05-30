@@ -1,2 +1,2 @@
 # Correo.INFO
-Creacion masisva de Correos .INFO
+Creacion masiva de Correos .INFO
