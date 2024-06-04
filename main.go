@@ -368,14 +368,7 @@ func scrap(correo, contraseña, filePath string, done chan struct{}) {
 	if err != nil {
 		panic(err)
 	}
-	time.Sleep(1 * time.Second)
 
-	//Buscar boton Salir del sistema
-	salir, err := driver.FindElement(selenium.ByCSSSelector, "#topNav_bar_js > table > tbody > tr > td.blueStatusBar_right > div > ul > li.blueStatusBar_icon_logout")
-	if err != nil {
-		panic(err)
-	}
-	salir.Click()
 	time.Sleep(10 * time.Second)
 
 }
